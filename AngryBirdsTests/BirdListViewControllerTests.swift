@@ -32,6 +32,7 @@ class BirdListViewControllerTests: XCTestCase {
         //Given
         let mockBirdService = MockBirdService()
         let mockBirds = [
+            //imageUrl don't have image in it
             Bird(named: "Oriole", description: "Angry", imageUrl: "birds.com/angryoriole"),
             Bird(named: "Cardinal", description: "Angry", imageUrl: "birds.com/angrycardinal"),
             Bird(named: "Robin", description: "Angry", imageUrl: "birds.com/angryrobin"),
